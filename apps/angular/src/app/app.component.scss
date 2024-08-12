@@ -1,0 +1,19 @@
+.nav-bar {
+  @apply fixed top-0 w-screen h-14 bg-slate-200 py-1 md:py-2 px-3 flex align-middle justify-center z-50 shadow;
+}
+
+.nav-link {
+  @apply hover:font-bold transition-all duration-100 ease-in-out;
+}
+
+.sidenav-link {
+  @apply w-full py-3 px-4 hover:font-bold transition-all duration-100 ease-in-out;
+}
+
+.burger {
+  @apply flex p-2 items-center md:hidden hover:bg-slate-300 rounded-full transition-all duration-100 ease-in-out;
+}
+
+.user-icon {
+  @apply flex p-2 items-center hover:bg-slate-300 rounded-full transition-all duration-100 ease-in-out;
+}

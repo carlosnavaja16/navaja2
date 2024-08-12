@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@navaja/shared": ["libs/shared/src/index.ts"],
+      "@navaja/trpc/*": ["./apps/trpc/src/*"],
+      "@navaja/angular/*": ["./apps/angular/*"],
+      "@navaja/angular/booking/*": ["./apps/angular/src/app/booking/*"],
+      "@navaja/angular/common/*": ["./apps/angular/src/app/common/*"],
+      "@navaja/angular/trpc/*": ["./apps/angular/src/app/trpc/*"],
+      "@navaja/angular/user/*": ["./apps/angular/src/app/user/*"],
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
